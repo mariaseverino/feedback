@@ -53,7 +53,7 @@ POSTGRES_DB=
    Após configurar os repositórios e o **.env**, navegue até a pasta onde está o arquivo docker-compose.yml e execute:
 
 ```
-docker-compose up -d
+docker compose up --build
 ```
 
 O Docker irá subir os containers do banco de dados, do backend e do frontend simultaneamente.
